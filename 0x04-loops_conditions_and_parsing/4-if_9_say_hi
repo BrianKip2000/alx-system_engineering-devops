@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # This script displays best school 10 times, with a condition that on the 9th iteration, it will display "Hi" instead of "Best School"
 i=0
 until [ $i -eq 11 ]
