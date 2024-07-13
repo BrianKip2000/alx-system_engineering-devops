@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Displays bad luck in 4, good luck in 8 and Best School in other iterations
 i=0
-while [ $i -lt 10 ]
+while [ $i -lt 11 ]
 do 
     if [ $i -eq 4 ]
     then
-        echo "Bad Luck"
+        echo "bad Luck"
     elif [ $i -eq 8 ]
     then 
-        echo "Good Luck"
+        echo "good Luck"
     else
         echo "Best School"
     fi
