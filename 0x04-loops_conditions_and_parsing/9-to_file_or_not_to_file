@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# prints school if it exists, and checks for its contents
 
 file="school"
 
