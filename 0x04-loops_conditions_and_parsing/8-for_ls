@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Prints the current folder contents
+for _ in *
+do 
+    echo "$_" | cut -f 2 -d '-'
+done
