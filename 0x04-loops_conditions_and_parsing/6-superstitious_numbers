@@ -1,20 +1,22 @@
 #!/usr/bin/env bash
-# Prints supersitious numbers from 1 to 20
-# If 4, bad luck from china, 8, japan, and 18 Italy
+# Prints superstitious numbers from 1 to 20
+# If 4, bad luck from China, 8, Japan, and 17 Italy
+
 i=1
-while [ $i -lt 21 ]
-do
-    if [ $i -eq 4 ]
-    then
-        echo -e "4 \nbad luck from China"
-    elif [ $i -eq 8 ]
-    then
-        echo -e "8 \nbad luck from Japan"
-    elif [ $i -eq 17 ]
-    then 
-        echo -e "17 \nbad luck from Italy"
-    else
-        echo "$i"
-    fi
-    ((i++))
+while [ $i -lt 21 ]; do
+	case $i in
+		4)
+			echo -e "4 \nbad luck from China"
+			;;
+		8)
+			echo -e "8 \nbad luck from Japan"
+			;;
+		17)
+			echo -e "17 \nbad luck from Italy"
+			;;
+		*)
+			echo "$i"
+			;;
+	esac
+	((i++))
 done
