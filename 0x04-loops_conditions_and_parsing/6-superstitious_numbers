@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Prints superstitious numbers from 1 to 20
-# If 4, bad luck from China, 8, Japan, and 17 Italy
+# Prints superstitious numbers from 1 to 20 ,If 4, bad luck from China, 8, Japan, and 17 Italy
 
 i=1
 while [ $i -lt 21 ]; do
