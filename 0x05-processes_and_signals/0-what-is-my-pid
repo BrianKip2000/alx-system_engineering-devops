@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Print current pid for this process
+echo $PPID
